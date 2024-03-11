@@ -1,4 +1,8 @@
 import logging
+import pandas as pd
+import random
 def text_print():
 
-    logging.info('This this Printing From File');
+    series=pd.Series([1,3,7,5,9])
+
+    return series
